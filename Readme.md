@@ -1,12 +1,10 @@
 # Project README
 
-This is a Python project with three Python files representing different phases of the project. Below are the instructions for setting up the environment and running the project.
-
+AI Legal Reasoning Assistant (DeepSeek R1 & RAG) Designed a legal analysis tool using DeepSeek R1 to leverage Chain-of-Thought (CoT) reasoning for interpreting complex legal statutes. Built a RAG pipeline with LangChain and FAISS to retrieve context from penal codes (e.g., UDHR), reducing hallucinations and providing citation-backed legal answers via a Streamlit interface.
 ---
 
 ## Table of Contents
 1. [Environment Setup](#environment-setup)
-    - [Using Pipenv](#using-pipenv)
     - [Using Conda](#using-conda)
     - [Using Pip](#using-pip)
 2. [Running the Project](#running-the-project)
@@ -15,30 +13,6 @@ This is a Python project with three Python files representing different phases o
 
 ## Environment Setup
 
-### Using Pipenv
-Pipenv is a tool that manages dependencies and virtual environments for Python projects.
-
-1. Install Pipenv if you don't have it:
-    ```
-    pip install pipenv
-    ```
-
-2. Navigate to the project directory and create a virtual environment:
-    ```
-    pipenv install
-    ```
-
-3. Activate the virtual environment:
-    ```
-    pipenv shell
-    ```
-
-4. (Optional) Install any additional dependencies:
-    ```
-    pipenv install <package_name>
-    ```
-
----
 
 ### Using Conda
 Conda is an open-source package management system and environment management system.
@@ -116,8 +90,6 @@ streamlit run main.py
     python rag_pipeline.py
     ```
 
-Ensure that all dependencies are installed before running the scripts.
+
 
 ---
-
-If you encounter any issues, feel free to reach out or check the documentation for the tools mentioned above.

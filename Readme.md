@@ -1,8 +1,9 @@
 # Project README
 
+
 AI Legal Reasoning Assistant (DeepSeek R1 & RAG)
 
-Designed a legal analysis tool using DeepSeek R1 to leverage Chain-of-Thought (CoT) reasoning for interpreting complex legal statutes. Built a RAG pipeline with LangChain and FAISS to retrieve context from penal codes (e.g., UDHR), reducing hallucinations and providing citation-backed legal answers via a Streamlit interface.
+Designed a legal analysis tool using DeepSeek R1 to leverage Chain-of-Thought (CoT) reasoning for interpreting complex legal statutes. Built a RAG pipeline with LangChain and FAISS to retrieve context from penal codes (e.g., UDHR), reducing hallucinations and providing citation-backed legal answers via a Streamlit interface .
 ---
 
 ## Table of Contents
